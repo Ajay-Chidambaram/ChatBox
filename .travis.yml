@@ -4,8 +4,7 @@ node_js:
   - '10'
 script:
   - npm install
-  - npm run lint
-  - npm test
+  - npm start
 cache:
   directories:
     - node_modules
