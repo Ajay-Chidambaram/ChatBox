@@ -1,4 +1,4 @@
-
+//client side
 const writeEvent = (text) => {
       const parent = document.getElementById("events");
       const ele = document.createElement("li");
