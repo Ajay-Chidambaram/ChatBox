@@ -3,7 +3,7 @@ node_js:
   - '10'
 script:
   - npm install
-  - npm install express socketio
+  - npm install express socket.io
   - npm start
 cache:
   directories:
