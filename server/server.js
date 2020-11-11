@@ -12,7 +12,7 @@ app.use(express.static(clientPath));
 const server = http.createServer(app);
 const io = socketio(server);
 
-const PORT = 8080 || process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 io.on('connection', (sock) => {
       sock.emit('message', "Hi you are connected");
